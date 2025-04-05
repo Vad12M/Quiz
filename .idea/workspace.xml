@@ -1,7 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="511b8f05-3732-46f1-9e9d-b3beeb57b9c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/action.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/bad-boy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/billionaire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/checkmark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/female.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/male.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/other.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/romance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/royal-obsession.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/werewolf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/young-adult.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Quiz.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuizHandler.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuizLayout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/QuizProgress.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/cms/CMSBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizTypes/QuizBubble.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizTypes/QuizEmail.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizTypes/QuizMultipleSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizTypes/QuizSingleSelect.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/quizTypes/QuizSingleSelectImage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/branchingRules.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/buttonsTranslations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/defaultThankYouConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/questions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/QuestionType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useBranchedQuestion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useDownloadCSV.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useLanguage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/useQuiz.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IAnswer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IBranchingRule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IQuestion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IQuestionOption.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IThankYouConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/ITranslationField.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/cms/settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/quiz/[order].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/quiz/thank_you.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/fakeApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/validators/baseValidators.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Checkbox.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Typography.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/icons/ArrowLeftIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/icons/TickIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/input/input.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/initializeData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/localStorage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/translation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslint.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/file.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/globe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/window.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/api/hello.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="PropertiesComponent">{}</component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2vDV6Kah1T62UDLezCC3B9xhWxU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/vadimhevdi/Desktop/pet/quiz/src/constants",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/vadimhevdi/Desktop/pet/quiz/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/constants" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/ui/icons" />
+      <recent name="$PROJECT_DIR$/src/ui/input" />
+      <recent name="$PROJECT_DIR$/src/interfaces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui/input" />
+      <recent name="$PROJECT_DIR$/public/images" />
+      <recent name="$PROJECT_DIR$/src/components/quizTypes" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.168" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="511b8f05-3732-46f1-9e9d-b3beeb57b9c5" name="Changes" comment="" />
+      <created>1743679454798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743679454798</updated>
+      <workItem from="1743679455900" duration="20427000" />
+      <workItem from="1743714525933" duration="6787000" />
+      <workItem from="1743855968096" duration="20306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

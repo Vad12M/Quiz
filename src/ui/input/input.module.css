@@ -1,0 +1,22 @@
+
+
+.input {
+  @apply bg-secondary p-5 w-full rounded-[16px] border-2 border-transparent w-full;
+}
+
+.input::placeholder {
+  font-family: Albert Sans;
+  @apply text-[#C4C8CC80] text-[17px] leading-[24px]
+}
+
+.input:focus {
+  @apply outline-none;
+}
+
+.isInvalid {
+  @apply border-2 border-red-800 ;
+}
+
+.isWhiteBorder {
+  @apply border border-white border-opacity-30;
+}
